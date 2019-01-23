@@ -3,10 +3,1038 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
+		<link rel="stylesheet" type="text/css" href= "../styles/public.css">
+		<link rel="stylesheet" type="text/css" href="../static/fonts/iconfont.css">
+		<link rel="stylesheet" type="text/css" href= "../styles/index.css">
+		
 	</head>
-	
-	<script src="../scripts/require.js" type="text/javascript" data-main="index.js" ></script>
 	<body>
-		<div id="box">123</div>
+		<div id="top">
+			<div class="margin">
+				<div class="site">
+					<a class="delivery" href="#">
+						<i class="iconfont icon-huoche"></i>
+						送至 : 
+						<span class="site-hover">&nbsp;上海</span>
+						<i class="iconfont icon-arrowdown"></i>
+					</a>
+					<div class="dropdowncont">
+						<p class="dropdown-elect">请选择所在收货地区</p>	
+					</div>
+				</div>
+				<!-- top左边 -->
+					<div class="enroll">
+						<a class="enter top-margin" href="/Account/Login/?url=http%3a%2f%2fwww.lyzb.com%2f" title="登录">登录</a>
+						<span>|</span>
+						<a class="login top-margin" href="/Account/Regist/" title="注册">注册</a>
+					</div>
+					<div class="indent">
+						<a class="order top-margin" href="/Member/MyOrder/" title="我的订单">
+							<i class="iconfont icon-ABSxitong-shoujihaotubiao"></i>
+							我的订单
+						</a>
+					</div>
+					<div class="collect">
+						<a class="collect-a top-margin" href="#" title="收藏本站">
+							<i>★</i>
+							收藏本站(Ctrl + D)
+						</a>
+					</div>
+					<div class="merchant">
+						<a class="service" href="#" title="商家中心">
+							<i class="iconfont icon-tongxunlu"></i>
+							商家中心
+						</a>
+					</div>
+					<div class="welfare">
+						<a class="welfares top-margin" href="http://www.li63.net" target="_blank" title="我要兑换">我要兑换
+						<i class="iconfont icon-jiahaoyou"></i>
+						</a>
+					</div>
+					<div class="help">
+						<a class="helps top-margin" href="#">
+							帮助中心
+							<i class="iconfont icon-arrow-down"></i>
+						</a>
+						<div class="help-list">
+							<a href="/help/2746284513.html" target="_blank" class="after-sales">售后服务</a>
+							<a href="wqjc" target="_blank" class="after-sales">会员介绍</a>
+							<a href="/help/6630281781.html" target="_blank" class="after-sales">支付方式</a>
+						</div>
+					</div>
+					<div class="phone">
+						<a href="#" class="phones">
+							<i class="iconfont icon-shouji"></i>
+							手机APP
+						</a>
+						<div class="phone-QG">
+							<div class="client">
+								<img src="https://h5rsc.vipstatic.com/lefeng_pc/images/page/xz_icon_for_lf.jpg" />
+								<h3>
+									<span>集食惠手机客户端</span>
+									<p>手机下单, 更多方便、 实惠</p>
+									<i class="iconfont icon-pingguo"></i><i class="iconfont icon-anzhuologo"></i>
+									<div class="shell"><b>iphone</b><b>Android</b></div>
+								</h3>
+							</div>
+							<div class="web">
+								<img src="https://h5rsc.vipstatic.com/lefeng_pc/images/page/xz_icon_for_lf.jpg" />
+								<h3>
+									<span>集食惠手机网页端</span>
+									<p>手机下单, 更多方便、 实惠</p>
+									<i class="iconfont icon-pingguo"></i><i class="iconfont icon-anzhuologo"></i><i class="iconfont icon-shouji"></i>
+									<div class="shell"><b>iphone</b><b>Android</b><b>ipad</b></div>
+								</h3>
+							</div>
+						</div>
+					</div>
+					
+			</div>
+		</div>
+		<div class="header">
+			<div class="search">
+				<a class="logo" href="#" title="万企集采">
+					<img src="../static/images/0a47fa308e458cb31b3c681510d41de.png" />
+				</a>
+				<div class="own">
+					<div class="seek">
+						<i class="iconfont icon-fangdajing"></i>
+						<input type="text" id="txt" placeholder="搜索" />
+						<input type="button" id="btn" value="搜索" />
+					</div>
+					<div class="hot">
+						<span>
+							热搜:
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="nav">
+			<div class="nav-margin">
+				<ul class="clear">
+					<li class="top-nav">
+						<b>全部商品分类</b>
+						<ul  class="_nav">
+							<li>
+								<a class="nav-title" href="#">
+									<i class="iconfont icon-shiwu-13"></i>
+									新鲜蔬果
+									<i class="iconfont icon-arrow1"></i>
+								</a>
+								<div class="produce">
+									<div class="produce-top">
+										<a class="produce-list" href="#" class="produce-head">新鲜蔬果</a>
+									</div>
+									<img class="produce-load" src="../static/images/isload.jpg" />
+									<ul class="fn-clear clear"></ul>
+									<a class="produce-childeren" href="#">
+										<img src="../static/images/1gssx.jpg" />
+									</a>
+								</div>
+							</li>
+							<li>
+								<a class="nav-title" href="#">
+									<i class="iconfont icon-shiwu-6"></i>
+									粮油干货
+									<i class="iconfont icon-arrow1"></i>
+								</a>
+								<div class="produce">
+									<div class="produce-top">
+										<a class="produce-list" href="#" class="produce-head">粮油干货</a>
+									</div>
+									<img class="produce-load" src="../static/images/isload.jpg" />
+									<ul class="fn-clear clear"></ul>
+									<a class="produce-childeren" href="#">
+										<img src="../static/images/2lygh.jpg" />
+									</a>
+								</div>
+							</li>
+							<li>
+								<a class="nav-title" href="#">
+									<i class="iconfont icon-shiwu-8"></i>
+									休闲食品
+									<i class="iconfont icon-arrow1"></i>
+								</a>
+								<div class="produce">
+									<div class="produce-top">
+										<a class="produce-list" href="#" class="produce-head">休闲食品</a>
+									</div>
+									<img class="produce-load" src="../static/images/isload.jpg" />
+									<ul class="fn-clear clear"></ul>
+									<a class="produce-childeren" href="#">
+										<img src="../static/images/3nav.jpg" />
+									</a>
+								</div>
+							</li>
+							<li>
+								<a class="nav-title" href="#">
+									<i class="iconfont icon-shiwu-7"></i>
+									肉禽蛋奶
+									<i class="iconfont icon-arrow1"></i>
+								</a>
+								<div class="produce">
+									<div class="produce-top">
+										<a class="produce-list" href="#" class="produce-head">肉禽蛋奶</a>
+									</div>
+									<img class="produce-load" src="../static/images/isload.jpg" />
+									<ul class="fn-clear clear"></ul>
+									<a class="produce-childeren" href="#">
+										<img src="../static/images/4nav.jpg" />
+									</a>
+								</div>
+							</li>
+							<li>
+								<a class="nav-title" href="#">
+									<i class="iconfont icon-shiwu-4"></i>
+									进口食品
+									<i class="iconfont iconfont icon-arrow1"></i>
+								</a>
+								<div class="produce">
+									<div class="produce-top">
+										<a class="produce-list" href="#" class="produce-head">进口食品</a>
+									</div>
+									<img class="produce-load" src="../static/images/isload.jpg" />
+									<ul class="fn-clear clear"></ul>
+									<a class="produce-childeren" href="#">
+										<img src="../static/images/5nav.jpg" />
+									</a>
+								</div>
+							</li>
+							<li>
+								<a class="nav-title" href="#">
+									<i class="iconfont icon-shiwu-"></i>
+									酒水茶饮
+									<i class="iconfont icon-arrow1"></i>
+								</a>
+								<div class="produce">
+									<div class="produce-top">
+										<a class="produce-list" href="#" class="produce-head">酒水茶饮</a>
+									</div>
+									<img class="produce-load" src="../static/images/isload.jpg" />
+									<ul class="fn-clear clear"></ul>
+									<a class="produce-childeren" href="#">
+										<img src="../static/images/6nav.jpg" />
+									</a>
+								</div>
+							</li>
+							<li>
+								<a class="nav-title" href="#">
+									<i class="iconfont icon-shiwu-20"></i>
+									营养食品
+									<i class="iconfont icon-arrow1"></i>
+								</a>
+								<div class="produce">
+									<div class="produce-top">
+										<a class="produce-list" href="#" class="produce-head">营养食品</a>
+									</div>
+									<img class="produce-load" src="../static/images/isload.jpg" />
+									<ul class="fn-clear clear"></ul>
+									<a class="produce-childeren" href="#">
+										<img src="../static/images/7nav.jpg" />
+									</a>
+								</div>
+							</li>
+							<li>
+								<a class="nav-title" href="#">
+									<i class="iconfont icon-shiwu-2"></i>
+									保健品
+									<i class="iconfont icon-arrow1"></i>
+								</a>
+								<div class="produce">
+									<div class="produce-top">
+										<a class="produce-list" href="#" class="produce-head">保健品</a>
+									</div>
+									<img class="produce-load" src="../static/images/isload.jpg" />
+									<ul class="fn-clear clear"></ul>
+									<a class="produce-childeren" href="#">
+										<img src="../static/images/8nav.jpg" />
+									</a>
+								</div>
+							</li>
+							<li>
+								<a class="nav-title" href="#">
+									<i class="iconfont icon-shiwu-1"></i>
+									母婴专区
+									<i class="iconfont icon-arrow1"></i>
+								</a>
+								<div class="produce">
+									<div class="produce-top">
+										<a class="produce-list" href="#" class="produce-head">母婴专区</a>
+									</div>
+									<img class="produce-load" src="../static/images/isload.jpg" />
+									<ul class="fn-clear clear"></ul>
+									<a class="produce-childeren" href="#">
+										<img src="../static/images/9nav.jpg" />
+									</a>
+								</div>
+							</li>
+							<li>
+								<a class="nav-title" href="#">
+									<i class="iconfont icon-shiwu-5"></i>
+									茗茶
+									<i class="iconfont icon-arrow1"></i>
+								</a>
+								<div class="produce">
+									<div class="produce-top">
+										<a class="produce-list" href="#" class="produce-head">茗茶</a>
+									</div>
+									<img class="produce-load" src="../static/images/isload.jpg" />
+									<ul class="fn-clear clear"></ul>
+									<a class="produce-childeren" href="#">
+										<img src="../static/images/10qt.jpg" />
+									</a>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li class="top-nav">
+						<u>首页</u>
+					</li>
+					<li class="top-nav">
+						<span>所有商品</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="banner">
+			<ul class="banner-main">
+				<li>
+					<a href="#"><img src="../static/images/banner01.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="../static/images/banner02.jpg" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="../static/images/banner03.jpg" /></a>
+				</li>
+			</ul>
+			<div class="banner-btn">
+				<b class="banner-l"><i class="iconfont icon-arrow"></i></b>
+				<b class="banner-r"><i class="iconfont icon-arrow1"></i></b>
+			</div>
+			<ul class="banner-list">
+				<li class="active"></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<div class="banner-loading">
+				<img src="../static/images/bannerload.gif" />
+			</div>
+		</div>
+		<!-- 右边的小轮播和滚动文字 -->
+		<div class="wrap">
+			<div class="notice">
+				<div class="notice-title">
+					<i class="iconfont icon-ABSxitong-shoujihaotubiao"></i>
+					<span>集食惠公告</span>
+				</div>
+				<div class="slider-notice">
+					<ul>
+						<li>
+							<a href="#" class="clone">集采账号介绍</a>
+						</li>
+						<li>
+							<a href="#">要享团购价,去伙拼专区吧</a>
+						</li>
+						<li>
+							<a href="#">万企集采.企业会员介绍</a>
+						</li>
+						<li>
+							<a href="#" class="clone">集采账号介绍</a>
+						</li>
+						<li>
+							<a href="#">要享团购价,去伙拼专区吧</a>
+						</li>
+						<li>
+							<a href="#">万企集采.企业会员介绍</a>
+						</li>
+						<li>
+							<a href="#" class="clone">集采账号介绍</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="wrap-nav">
+				<div class="wrap-img">
+					<ul>
+						<li>
+							<a href="#" title="烟台栖霞红富士苹果5斤装 (果径80mm) 5斤-80mm">
+								<div class="warp-onetitle">
+									<p class="onetitle-name">烟台栖霞红富士苹果5斤装 (果径80mm) 5斤-80mm</p>
+									<span class="feature">口感甘甜清脆</span>
+									<p class="onetitle-price">
+										￥<span>29</span>.50
+									</p>
+								</div>
+								<div class="onetitle-img">
+									<img src="../static/images/wrap1.jpg" />
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" title="武当道家老复丁酿绿太极(5年)445ml*2">
+								<div class="warp-onetitle">
+									<p class="onetitle-name">武当道家老复丁酿绿太极(5年)445ml*2</p>
+									<span class="feature">无添加不勾兑</span>
+									<p class="onetitle-price">
+										￥<span>44</span>.90
+									</p>
+								</div>
+								<div class="onetitle-img">
+									<img src="../static/images/wrap2.jpg" />
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" title="烟台栖霞红富士苹果5斤装 (果径80mm) 5斤-80mm">
+								<div class="warp-onetitle">
+									<p class="onetitle-name">烟台栖霞红富士苹果5斤装 (果径80mm) 5斤-80mm</p>
+									<span class="feature">口感甘甜清脆</span>
+									<p class="onetitle-price">
+										￥<span>29</span>.50
+									</p>
+								</div>
+								<div class="onetitle-img">
+									<img src="../static/images/wrap1.jpg" />
+								</div>
+							</a>
+						</li>
+					</ul>
+					<div class="slider-paging">
+						<span class="active">
+							<i>1</i>
+						</span>
+						<span>
+							<i>2</i>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="main">
+			<div class="main-margin">
+				<!-- 热销推荐 -->
+				<div class="main-top clear">
+					<div class="recommend">
+						<div class="main-hot">
+							<ul class="mainhot-title">
+								<li>
+									<a href="#" class="active">热销推荐</a>
+								</li>
+								<li>
+									<a href="#">新品上市</a>
+								</li>
+								<li>
+									<a href="#">品牌专区</a>
+								</li>
+							</ul>
+							<div class="mainhot-list">
+								<ul class="mainhot-pro mainhot-refe"></ul>	
+								<ul class="mainhot-pro mainhot-newpro"></ul>
+								<ul class="mainhot-pro mainhot-brand"></ul>
+							</div>
+						</div>
+						<div class="main-rush">
+							<div class="mainrush-hd">
+								<p class="fn-left">
+									<span>限时</span>
+									<span>抢购</span>
+								</p>
+								<p class="fn-right">
+									<a href="#">下期预告</a>
+								</p>
+							</div>
+							<div class="mainrush-time">
+								<span>抢购时间</span>
+								<p>
+									<b>
+										<span>00</span>
+										<span></span>
+										<span>:</span>
+									</b>
+									<b>
+										<span>00</span>
+										<span></span>
+										<span>:</span>
+									</b>
+									<b>
+										<span>00</span>
+										<span></span>
+										<span>:</span>
+									</b>
+									<b>
+										<span>00</span>
+										<span></span>
+									</b>
+								</p>
+							</div>
+							<div class="mainrush-img">
+								<img src="../static/images/main1.png" />
+							</div>
+							<div class="mainrush-finished">
+								<img src="../static/images/main2.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="maincenter-title">
+					<ul>
+						<li class="active">
+							<a href="#">
+								<img src="../static/images/main01.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="../static/images/main02.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="../static/images/main03.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="../static/images/main04.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="../static/images/main05.jpg" />
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="F1 same">
+					<div class="floor">
+						<p class="floor-hd">1F 果蔬生鲜</p>
+						<div class="floor-cont">
+							<div class="floor-carousel F1-carousel">
+								<ul>
+									<li>
+										<a href="#">
+											<img src="../static/images/1F01.jpg" />
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../static/images/1F02.jpg" />
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../static/images/1F03.jpg" />
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../static/images/1F01.jpg" />
+										</a>
+									</li>
+								</ul>
+								<div class="F1carousel-nav">
+									<span class="active">
+										<i></i>
+									</span>
+									<span>
+										<i></i>
+									</span>
+									<span>
+										<i></i>
+									</span>
+								</div>
+							</div>
+							<div class="floor-main">
+								<div class="floormain-title">
+									<ul class="floor-tab F1-tab">
+										<li class="tab-active">
+											<a href="#">当季热销</a>
+										</li>
+										<li>
+											<a href="#">新品上市</a>
+										</li>
+										<li>
+											<a href="#">生鲜特产</a>
+										</li>
+									</ul>
+									<div class="floor-more">
+									</div>
+								</div>
+								<div class="floormain-bd F1floor-bd">
+									<div class="floormain-hot F1-hot">
+									</div>
+									<div class="floormain-new common F1-new">	
+									</div>
+									<div class="floormain-fresh common F1-firesh">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="floor-loading">
+							<img src="../static/images/bannerload.gif" />
+						</div>
+					</div>
+				</div>
+				<div class="F2 same">
+					<div class="floor">
+						<p class="floor-hd">2F 粮油干货</p>
+						<div class="floor-cont">
+							<div class="floor-carousel F2-carousel">
+								<ul>
+									<li>
+										<a href="#">
+											<img src="../static/images/2F01.jpg" />
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../static/images/F202.jpg" />
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../static/images/F203.jpg" />
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../static/images/2F01.jpg" />
+										</a>
+									</li>
+								</ul>
+								<div class="F1carousel-nav F2-carousel-nav">
+									<span class="active">
+										<i></i>
+									</span>
+									<span>
+										<i></i>
+									</span>
+									<span>
+										<i></i>
+									</span>
+								</div>
+							</div>
+							<div class="floor-main">
+								<div class="floormain-title">
+									<ul class="floor-tab F2-tab">
+										<li class="tab-active">
+											<a href="#">精品推荐</a>
+										</li>
+										<li>
+											<a href="#">粮油精选</a>
+										</li>
+										<li>
+											<a href="#">特色干货</a>
+										</li>
+									</ul>
+									<div class="floor-more F2more">
+									</div>
+								</div>
+								<div class="floormain-bd F2floor-bd">
+									<div class="floormain-hot F2-recommend">
+									</div>
+									<div class="floormain-new common F2-sift">	
+									</div>
+									<div class="floormain-fresh common F2-dry">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="floor-loading">
+							<img src="../static/images/bannerload.gif" />
+						</div>
+					</div>
+				</div>
+				<div class="F3 same">
+					<div class="floor">
+						<p class="floor-hd">3F 休闲食品</p>
+						<div class="floor-cont">
+							<div class="floor-carousel F3-carousel">
+								<ul>
+									<li>
+										<a href="#">
+											<img src="../static/images/3F01.jpg" />
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../static/images/3F02.jpg" />
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../static/images/3F03.jpg" />
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../static/images/3F01.jpg" />
+										</a>
+									</li>
+								</ul>
+								<div class="F1carousel-nav F3-carousel-nav">
+									<span class="active">
+										<i></i>
+									</span>
+									<span>
+										<i></i>
+									</span>
+									<span>
+										<i></i>
+									</span>
+								</div>
+							</div>
+							<div class="floor-main">
+								<div class="floormain-title">
+									<ul class="floor-tab F3-tab">
+										<li class="tab-active">
+											<a href="#">精品推荐</a>
+										</li>
+										<li>
+											<a href="#">新品上市</a>
+										</li>
+										<li>
+											<a href="#">品牌专区</a>
+										</li>
+									</ul>
+									<div class="floor-more F3more">
+									</div>
+								</div>
+								<div class="floormain-bd F3floor-bd">
+									<div class="floormain-hot F3-recommend">
+									</div>
+									<div class="floormain-new common F3-sift">	
+									</div>
+									<div class="floormain-fresh common F3-dry">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="floor-loading">
+							<img src="../static/images/bannerload.gif" />
+						</div>
+					</div>
+				</div>
+				<div class="F4 same">
+					<div class="floor">
+						<p class="floor-hd">4F 肉禽蛋奶</p>
+						<div class="floor-cont">
+							<div class="floor-carousel F4-carousel">
+								<ul>
+									<li>
+										<a href="#">
+											<img src="../static/images/F401.jpg" />
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../static/images/F402.jpg" />
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../static/images/F403.jpg" />
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../static/images/F401.jpg" />
+										</a>
+									</li>
+								</ul>
+								<div class="F1carousel-nav F4-carousel-nav">
+									<span class="active">
+										<i></i>
+									</span>
+									<span>
+										<i></i>
+									</span>
+									<span>
+										<i></i>
+									</span>
+								</div>
+							</div>
+							<div class="floor-main">
+								<div class="floormain-title">
+									<ul class="floor-tab F4-tab">
+										<li class="tab-active">
+											<a href="#">精品推荐</a>
+										</li>
+										<li>
+											<a href="#">新品上市</a>
+										</li>
+										<li>
+											<a href="#">品牌专区</a>
+										</li>
+									</ul>
+									<div class="floor-more F4more">
+									</div>
+								</div>
+								<div class="floormain-bd F4floor-bd">
+									<div class="floormain-hot F4-recommend">
+									</div>
+									<div class="floormain-new common F4-sift">	
+									</div>
+									<div class="floormain-fresh common F4-dry">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="floor-loading">
+							<img src="../static/images/bannerload.gif" />
+						</div>
+					</div>
+				</div>
+				<div class="F5 same">
+					<div class="floor">
+						<p class="floor-hd">5F 环球美食</p>
+						<div class="floor-cont">
+							<div class="floor-carousel F5-carousel">
+								<ul>
+									<li>
+										<a href="#">
+											<img src="../static/images/F501.jpg" />
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../static/images/F502.jpg" />
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../static/images/F503.jpg" />
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../static/images/F501.jpg" />
+										</a>
+									</li>
+								</ul>
+								<div class="F1carousel-nav F5-carousel-nav">
+									<span class="active">
+										<i></i>
+									</span>
+									<span>
+										<i></i>
+									</span>
+									<span>
+										<i></i>
+									</span>
+								</div>
+							</div>
+							<div class="floor-main">
+								<div class="floormain-title">
+									<ul class="floor-tab F5-tab">
+										<li class="tab-active">
+											<a href="#">精品推荐</a>
+										</li>
+										<li>
+											<a href="#">新品上市</a>
+										</li>
+										<li>
+											<a href="#">环球休闲</a>
+										</li>
+									</ul>
+									<div class="floor-more F5more">
+									</div>
+								</div>
+								<div class="floormain-bd F5floor-bd">
+									<div class="floormain-hot F5-recommend">
+									</div>
+									<div class="floormain-new common F5-sift">	
+									</div>
+									<div class="floormain-fresh common F5-dry">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="floor-loading">
+							<img src="../static/images/bannerload.gif" />
+						</div>
+					</div>
+				</div>
+				<div class="F6 same">
+					<div class="floor">
+						<p class="floor-hd">6F 酒水茶饮</p>
+						<div class="floor-cont">
+							<div class="floor-carousel F6-carousel">
+								<ul>
+									<li>
+										<a href="#">
+											<img src="../static/images/F601.jpg" />
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../static/images/F602.jpg" />
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../static/images/F603.jpg" />
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="../static/images/F601.jpg" />
+										</a>
+									</li>
+								</ul>
+								<div class="F1carousel-nav F6-carousel-nav">
+									<span class="active">
+										<i></i>
+									</span>
+									<span>
+										<i></i>
+									</span>
+									<span>
+										<i></i>
+									</span>
+								</div>
+							</div>
+							<div class="floor-main">
+								<div class="floormain-title">
+									<ul class="floor-tab F6-tab">
+										<li class="tab-active">
+											<a href="#">精品推荐</a>
+										</li>
+										<li>
+											<a href="#">新品上市</a>
+										</li>
+										<li>
+											<a href="#">环球休闲</a>
+										</li>
+									</ul>
+									<div class="floor-more F6more">
+									</div>
+								</div>
+								<div class="floormain-bd F6floor-bd">
+									<div class="floormain-hot F6-recommend">
+									</div>
+									<div class="floormain-new common F6-sift">	
+									</div>
+									<div class="floormain-fresh common F6-dry">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="floor-loading">
+							<img src="../static/images/bannerload.gif" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="floor-menu">
+			<a href="#1F" data-text="果蔬生鲜">
+				<i>1F</i>
+				<span>果蔬生鲜</span>
+			</a>
+			<a href="#2F" data-text="粮油干货">
+				<i>2F</i>
+				<span>粮油干货</span>
+			</a>
+			<a href="#3F" data-text="休闲食品">
+				<i>3F</i>
+				<span>休闲食品</span>
+			</a>
+			<a href="#4F" data-text="肉禽蛋奶">
+				<i>4F</i>
+				<span>肉禽蛋奶</span>
+			</a>
+			<a href="#5F" data-text="环球美食">
+				<i>5F</i>
+				<span>环球美食</span>
+			</a>
+			<a href="#6F" data-text="酒水饮料" class="active_link">
+				<i>6F</i>
+				<span>酒水饮料</span>
+			</a>
+		</div>
+		<div class="right-menu">
+			<div class="index-menu">
+				<div class="menu-bar">
+					<div class="menu-link">
+						<div class="shop-car">
+							<a href="#">
+								<i class="iconfont icon-gouwuchekong"></i>
+								购物车
+								<label>0</label>
+							</a>
+						</div>
+						<div class="collect-bar">
+							<a href="#">
+								<i class="iconfont icon-shouji"></i>
+								我的收藏
+							</a>
+							<div class="link-item">
+								<span>我的收藏</span>
+							</div>
+						</div>
+						<div class="history-bar">
+							<a href="#">
+								<i class="iconfont icon-qixian"></i>
+								浏览记录
+							</a>
+							<div class="link-item">
+								<span>浏览记录</span>
+							</div>
+						</div>
+						<div class="customer-bar">
+							<a href="#">
+								<i class="iconfont icon-jiahaoyou"></i>
+								联系客服
+							</a>
+							<div class="service">
+								<a href="#">
+									<i class="iconfont icon-tongxunlu"></i>
+									在线咨询
+								</a>
+								<span class="service-tips1">
+									<i class="iconfont icon-shouji"></i>
+									售后服务电话
+								</span>
+								<label>
+									4000-266-357
+								</label>
+								<span class="service-tips2">
+									<i class="iconfont icon-qixian"></i>
+									电话服务时间
+								</span>
+								<p>
+									<span>
+										8:45-20:30(工作日)<br>
+										8:45-17:45(节假日)
+									</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="ment-btn">
+					<div class="link-item">
+						<a href="#">
+							<i class="iconfont icon-saomiao"></i>
+						</a>
+						<div class="two-code">
+							<img src="../static/images/code.jpg" />
+							<span>扫描下方二维码</span>
+						</div>
+					</div>
+					<div class="link-item1">
+						<b class="TOP">
+							<i class="iconfont icon-arrowup"></i>
+							置顶
+						</b>
+					</div>
+				</div>
+			</div>
+			<div class="index-content"></div>
+		</div>
 	</body>
+	<script src="../static/libs/require.js" data-main="index.js"></script>
 </html>

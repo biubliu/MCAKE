@@ -1,1 +1,1753 @@
-*{margin:0;padding:0}
+@charset "UTF-8";
+/* 导入 */
+body {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  font-family: "微软雅黑", arial, sans-serif; }
+
+div#top {
+  background: #f2f2f2;
+  border: 1px solid #e5e5e5;
+  height: 27px;
+  line-height: 27px; }
+  div#top div.margin {
+    position: relative;
+    width: 1190px;
+    margin: 0 auto; }
+    div#top div.margin div.site {
+      float: left;
+      display: inline;
+      position: relative;
+      zoom: 1; }
+      div#top div.margin div.site a.delivery {
+        display: block;
+        height: 28px;
+        width: 130px;
+        padding-left: 4px;
+        line-height: 24px; }
+        div#top div.margin div.site a.delivery i.icon-arrowdown {
+          font-size: 8px;
+          margin-left: 6px;
+          color: #666; }
+        div#top div.margin div.site a.delivery i.icon-huoche {
+          font-size: 16px;
+          padding: 0 10px;
+          color: #666; }
+      div#top div.margin div.site .delivery-hover {
+        display: block;
+        height: 28px;
+        width: 128px;
+        padding-left: 4px;
+        background: #fff;
+        border-left: 1px solid #e5e5e5;
+        border-right: 1px solid #e5e5e5;
+        color: #f52648; }
+        div#top div.margin div.site .delivery-hover i.icon-arrowdown {
+          font-size: 8px;
+          margin-left: 2px;
+          color: #666; }
+        div#top div.margin div.site .delivery-hover i.icon-c-huoche {
+          font-size: 14px;
+          padding: 0 12px;
+          color: #666; }
+      div#top div.margin div.site div.dropdowncont {
+        display: none;
+        background: #fff;
+        position: absolute;
+        top: 27px;
+        left: 0;
+        padding: 0 10px 10px 10px;
+        line-height: 30px;
+        margin-top: 1px;
+        border: 1px solid #e5e5e5;
+        border-top: 0;
+        z-index: 110;
+        zoom: 1;
+        width: 390px;
+        color: #666; }
+        div#top div.margin div.site div.dropdowncont p {
+          border-bottom: 1px dashed #e5e5e5; }
+        div#top div.margin div.site div.dropdowncont label.letter {
+          color: #999;
+          float: left;
+          width: 52px;
+          margin-right: 8px;
+          text-align: center; }
+        div#top div.margin div.site div.dropdowncont span {
+          display: block;
+          width: 50px;
+          height: 25px;
+          line-height: 25px;
+          text-align: center;
+          cursor: pointer;
+          margin: 2.5px 10px 0 0;
+          float: left; }
+          div#top div.margin div.site div.dropdowncont span:hover {
+            color: #f52648; }
+        div#top div.margin div.site div.dropdowncont div.dropdowncont-item-hot {
+          font-family: "微软雅黑", arial, sans-serif;
+          position: relative;
+          line-height: 30px;
+          width: 390px;
+          height: 55px; }
+          div#top div.margin div.site div.dropdowncont div.dropdowncont-item-hot label.hot {
+            float: left;
+            position: relative;
+            width: 60px;
+            text-align: left;
+            color: #333; }
+          div#top div.margin div.site div.dropdowncont div.dropdowncont-item-hot .active {
+            background: #f52648;
+            color: #fff; }
+        div#top div.margin div.site div.dropdowncont div.East {
+          display: block;
+          position: relative;
+          line-height: 30px;
+          height: 55px; }
+        div#top div.margin div.site div.dropdowncont div.south {
+          display: block;
+          position: relative;
+          line-height: 30px;
+          height: 29.6px; }
+        div#top div.margin div.site div.dropdowncont div.NC {
+          display: block;
+          position: relative;
+          line-height: 30px;
+          height: 29.6px; }
+        div#top div.margin div.site div.dropdowncont div.central {
+          display: block;
+          position: relative;
+          line-height: 30px;
+          height: 29.6px; }
+        div#top div.margin div.site div.dropdowncont div.northeast {
+          display: block;
+          position: relative;
+          line-height: 30px;
+          height: 29.6px; }
+        div#top div.margin div.site div.dropdowncont div.southwest {
+          display: block;
+          position: relative;
+          line-height: 30px;
+          height: 29.6px; }
+        div#top div.margin div.site div.dropdowncont div.northwest {
+          display: block;
+          position: relative;
+          line-height: 30px;
+          height: 29.6px; }
+    div#top div.margin a {
+      color: #555;
+      outline: 0;
+      position: relative;
+      cursor: pointer;
+      line-height: 27px; }
+    div#top div.margin div.enroll {
+      float: left;
+      display: inline;
+      width: 99px;
+      height: 27px; }
+      div#top div.margin div.enroll a {
+        margin: 0 8px; }
+      div#top div.margin div.enroll span {
+        color: #ddd; }
+    div#top div.margin div.indent {
+      width: 82px;
+      height: 27px;
+      float: left;
+      display: inline; }
+      div#top div.margin div.indent a.order {
+        margin: 0; }
+        div#top div.margin div.indent a.order i {
+          font-size: 14px;
+          line-height: 27px; }
+    div#top div.margin div.collect {
+      width: 150px;
+      height: 27px;
+      float: left;
+      display: inline; }
+      div#top div.margin div.collect a i {
+        font-size: 16px;
+        line-height: 27px;
+        color: #ff861b; }
+    div#top div.margin div.merchant {
+      float: right;
+      width: 90px;
+      height: 27px;
+      display: inline;
+      position: relative; }
+      div#top div.margin div.merchant a {
+        margin-right: 10px;
+        outline: 0; }
+        div#top div.margin div.merchant a i {
+          font-size: 16px;
+          line-height: 27px; }
+    div#top div.margin div.welfare {
+      width: 83px;
+      height: 27px;
+      float: right;
+      position: relative;
+      display: inline;
+      line-height: 27px; }
+      div#top div.margin div.welfare a.welfares i {
+        font-size: 14px; }
+    div#top div.margin div.help {
+      box-sizing: border-box;
+      float: right;
+      width: 85px;
+      height: 28px;
+      position: relative;
+      display: inline;
+      margin-right: 15px; }
+      div#top div.margin div.help:hover {
+        background: #fff; }
+      div#top div.margin div.help a.helps {
+        margin-left: 10px; }
+        div#top div.margin div.help a.helps i {
+          font-size: 10px;
+          line-height: 27px;
+          margin-left: 4px; }
+        div#top div.margin div.help a.helps:hover {
+          color: #f52648; }
+      div#top div.margin div.help div.help-list {
+        display: none;
+        width: 63px;
+        height: 95px;
+        padding: 0 10px 10px 10px;
+        position: absolute;
+        top: 27px;
+        left: -1px;
+        background: #fff;
+        color: #666;
+        line-height: 30px;
+        margin-top: 1px;
+        border: 1px solid #e5e5e5;
+        border-top: 0;
+        z-index: 11;
+        zoom: 1; }
+        div#top div.margin div.help div.help-list a {
+          display: block;
+          width: 62px;
+          height: 30px;
+          padding-left: 0; }
+          div#top div.margin div.help div.help-list a:hover {
+            color: #f52648; }
+    div#top div.margin .phone-hover {
+      background: #fff;
+      border-left: 1px solid #e5e5e5;
+      border-right: 1px solid #e5e5e5; }
+      div#top div.margin .phone-hover i {
+        color: #666; }
+    div#top div.margin div.phone {
+      box-sizing: border-box;
+      float: right;
+      position: relative;
+      width: 89px;
+      height: 28px;
+      display: inline; }
+      div#top div.margin div.phone a.phones i {
+        padding-left: 5px;
+        font-size: 12px;
+        line-height: 27px; }
+      div#top div.margin div.phone a.phones:hover {
+        color: #f52648; }
+      div#top div.margin div.phone div.phone-QG {
+        display: none;
+        width: 273px;
+        height: 193px;
+        position: absolute;
+        right: -1px;
+        top: 27px;
+        padding: 0 10px 10px 10px;
+        margin-top: 1px;
+        border: 1px solid #e5e5e5;
+        border-top: 0;
+        background: #fff;
+        z-index: 11;
+        zoom: 1; }
+        div#top div.margin div.phone div.phone-QG div.client {
+          padding-top: 10px;
+          height: 80px;
+          width: 250px; }
+          div#top div.margin div.phone div.phone-QG div.client img {
+            display: block;
+            width: 76px;
+            height: 76px;
+            float: left; }
+          div#top div.margin div.phone div.phone-QG div.client h3 {
+            float: left;
+            width: 144px;
+            height: 80px;
+            padding-left: 10px;
+            line-height: 18px;
+            font-weight: normal; }
+            div#top div.margin div.phone div.phone-QG div.client h3 span {
+              font-size: 12px;
+              color: #666; }
+            div#top div.margin div.phone div.phone-QG div.client h3 p {
+              font-size: 12px;
+              color: #d71a21; }
+            div#top div.margin div.phone div.phone-QG div.client h3 i {
+              margin: 0 10px;
+              font-size: 16px;
+              color: #666; }
+            div#top div.margin div.phone div.phone-QG div.client h3 div.shell {
+              width: 144px; }
+              div#top div.margin div.phone div.phone-QG div.client h3 div.shell b {
+                margin-right: 10px;
+                font-size: 10px;
+                color: #ddd; }
+        div#top div.margin div.phone div.phone-QG div.web {
+          padding-top: 10px;
+          border-top: 1px dashed #e5e5e5;
+          height: 80px;
+          width: 250px; }
+          div#top div.margin div.phone div.phone-QG div.web img {
+            display: block;
+            width: 76px;
+            height: 76px;
+            float: left; }
+          div#top div.margin div.phone div.phone-QG div.web h3 {
+            float: left;
+            width: 144px;
+            height: 80px;
+            padding-left: 10px;
+            line-height: 18px;
+            font-weight: normal; }
+            div#top div.margin div.phone div.phone-QG div.web h3 span {
+              font-size: 12px;
+              color: #666; }
+            div#top div.margin div.phone div.phone-QG div.web h3 p {
+              font-size: 12px;
+              color: #d71a21; }
+            div#top div.margin div.phone div.phone-QG div.web h3 i {
+              margin: 0 12px;
+              font-size: 16px;
+              color: #666; }
+            div#top div.margin div.phone div.phone-QG div.web h3 div.shell {
+              width: 144px; }
+              div#top div.margin div.phone div.phone-QG div.web h3 div.shell b {
+                margin-right: 10px;
+                font-size: 10px;
+                color: #ddd; }
+
+div.header {
+  box-sizing: border-box;
+  height: 140px;
+  padding: 30px 0;
+  position: relative;
+  z-index: 9; }
+  div.header div.search {
+    width: 1190px;
+    height: 80px;
+    margin: 0 auto; }
+    div.header div.search a.logo {
+      display: block;
+      width: 290px;
+      height: 70px;
+      float: left; }
+      div.header div.search a.logo img {
+        display: block;
+        width: 300px;
+        height: 70px;
+        border: 0; }
+    div.header div.search div.own {
+      float: left;
+      width: 600px;
+      height: 60px;
+      position: relative;
+      margin-top: 20px;
+      margin-left: 60px; }
+      div.header div.search div.own div.seek {
+        height: 36px;
+        width: 600px; }
+        div.header div.search div.own div.seek input {
+          border: 0;
+          float: left; }
+        div.header div.search div.own div.seek #txt {
+          width: 470px;
+          height: 32px;
+          line-height: 32px;
+          color: #000;
+          border: 2px solid #e60012;
+          padding-left: 28px;
+          background: #fff;
+          outline: 0px; }
+        div.header div.search div.own div.seek #btn {
+          width: 80px;
+          height: 36px;
+          color: #fff;
+          background: #e60012;
+          text-align: center;
+          cursor: pointer; }
+        div.header div.search div.own div.seek i {
+          position: absolute;
+          left: 5px;
+          top: 5px;
+          font-size: 25px;
+          color: #e5e5e5; }
+      div.header div.search div.own div.hot {
+        width: 600px;
+        height: 23px; }
+        div.header div.search div.own div.hot span {
+          float: left;
+          margin-top: 5px;
+          padding-left: 12px; }
+        div.header div.search div.own div.hot a {
+          float: left;
+          height: 18px;
+          line-height: 18px;
+          color: #999;
+          padding: 0 12px;
+          border-right: 1px solid #e5e5e5;
+          margin-top: 5px; }
+          div.header div.search div.own div.hot a:nth-last-child {
+            border: 0; }
+          div.header div.search div.own div.hot a:hover {
+            color: #f52648; }
+
+div#nav {
+  border-bottom: 2px solid #e60012; }
+  div#nav div.nav-margin {
+    width: 1190px;
+    margin: 0 auto;
+    height: 38px;
+    position: relative; }
+    div#nav div.nav-margin ul.clear {
+      height: 38px;
+      position: relative;
+      z-index: 100;
+      line-height: 38px; }
+      div#nav div.nav-margin ul.clear li.top-nav {
+        position: relative;
+        z-index: 30;
+        float: left;
+        margin-right: 30px; }
+        div#nav div.nav-margin ul.clear li.top-nav b {
+          background: #cc0212;
+          position: relative;
+          font-weight: bold;
+          font-size: 16px;
+          display: block;
+          width: 120px;
+          height: 38px;
+          color: #fff;
+          padding: 0 20px 0 50px;
+          cursor: pointer; }
+        div#nav div.nav-margin ul.clear li.top-nav ul._nav {
+          width: 190px;
+          border-top: 2px solid #e60012;
+          padding: 3px 0;
+          background: #e2242b;
+          position: absolute; }
+          div#nav div.nav-margin ul.clear li.top-nav ul._nav li {
+            height: 46.5px;
+            vertical-align: top; }
+            div#nav div.nav-margin ul.clear li.top-nav ul._nav li.nav-title-hover a.nav-title {
+              background: #fff;
+              color: #e2242b; }
+              div#nav div.nav-margin ul.clear li.top-nav ul._nav li.nav-title-hover a.nav-title i:nth-child(1) {
+                color: #e95c61;
+                padding: 0 10px 0 30px; }
+              div#nav div.nav-margin ul.clear li.top-nav ul._nav li.nav-title-hover a.nav-title i.icon-arrow1 {
+                display: block; }
+            div#nav div.nav-margin ul.clear li.top-nav ul._nav li.nav-title-hover div.produce {
+              display: block; }
+            div#nav div.nav-margin ul.clear li.top-nav ul._nav li a.nav-title {
+              position: relative;
+              display: block;
+              height: 46px;
+              padding-left: 13px;
+              line-height: 46px;
+              color: #fefefe;
+              font-size: 14px; }
+              div#nav div.nav-margin ul.clear li.top-nav ul._nav li a.nav-title i.iconfont {
+                display: inline-block;
+                width: 20px;
+                padding: 0 10px;
+                transition: .3s; }
+              div#nav div.nav-margin ul.clear li.top-nav ul._nav li a.nav-title i.icon-arrow1 {
+                display: none;
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 0;
+                color: #ff742f; }
+            div#nav div.nav-margin ul.clear li.top-nav ul._nav li div.produce {
+              display: none;
+              position: absolute;
+              left: 190px;
+              top: 0;
+              width: 440px;
+              height: 477px;
+              background: #fff;
+              opacity: .95; }
+              div#nav div.nav-margin ul.clear li.top-nav ul._nav li div.produce div.produce-top {
+                width: 400px;
+                height: 30px;
+                border-bottom: 1px solid #e5e5e5;
+                line-height: 30px;
+                marign-left: 10px;
+                padding-left: 10px;
+                color: #666;
+                font-size: 12px; }
+                div#nav div.nav-margin ul.clear li.top-nav ul._nav li div.produce div.produce-top a {
+                  display: block;
+                  outline: 0; }
+              div#nav div.nav-margin ul.clear li.top-nav ul._nav li div.produce img.produce-load {
+                display: block;
+                display: none;
+                border: 0;
+                vertical-align: top; }
+              div#nav div.nav-margin ul.clear li.top-nav ul._nav li div.produce ul.fn-clear {
+                width: 420px;
+                padding: 6px 0;
+                margin: 0 4px 0 15px; }
+              div#nav div.nav-margin ul.clear li.top-nav ul._nav li div.produce a.produce-childeren {
+                display: block;
+                height: auto;
+                width: 400px;
+                position: absolute;
+                bottom: 0; }
+                div#nav div.nav-margin ul.clear li.top-nav ul._nav li div.produce a.produce-childeren img {
+                  width: 100%;
+                  height: 200px;
+                  display: block; }
+        div#nav div.nav-margin ul.clear li.top-nav u {
+          display: block;
+          color: #d71a21;
+          height: 38px;
+          padding: 0 13px;
+          font-size: 16px;
+          cursor: pointer;
+          background: transparent; }
+        div#nav div.nav-margin ul.clear li.top-nav span {
+          display: block;
+          height: 38px;
+          color: #000;
+          padding: 0 13px;
+          font-size: 16px;
+          cursor: pointer;
+          background: transprent; }
+          div#nav div.nav-margin ul.clear li.top-nav span:hover {
+            color: #d71a21; }
+
+div#banner {
+  height: 471px;
+  position: relative;
+  margin: auto;
+  width: 100%;
+  z-index: 3; }
+  div#banner ul.banner-main {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%; }
+    div#banner ul.banner-main li {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 100; }
+      div#banner ul.banner-main li a {
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: relative;
+        overflow: hidden;
+        text-align: center; }
+        div#banner ul.banner-main li a img {
+          position: absolute;
+          top: 0;
+          left: 50%;
+          display: block;
+          width: 1960px;
+          height: 471px;
+          margin-left: -980px; }
+  div#banner div.banner-btn {
+    display: none;
+    width: 730px;
+    margin-left: -405px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 102;
+    margin-top: 40px; }
+    div#banner div.banner-btn b:nth-child(1) {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 45px;
+      height: 80px;
+      margin-top: -40px;
+      background: #333;
+      opacity: .5;
+      cursor: pointer; }
+      div#banner div.banner-btn b:nth-child(1):hover {
+        opacity: .8; }
+      div#banner div.banner-btn b:nth-child(1) i.iconfont {
+        position: absolute;
+        left: -6px;
+        top: 7px;
+        display: block;
+        font-size: 60px;
+        color: #f2f2f2; }
+    div#banner div.banner-btn b:nth-child(2) {
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      width: 45px;
+      height: 80px;
+      margin-top: -40px;
+      background: #333;
+      opacity: .5;
+      cursor: pointer;
+      font-size: 25px; }
+      div#banner div.banner-btn b:nth-child(2):hover {
+        opacity: .8; }
+      div#banner div.banner-btn b:nth-child(2) i.iconfont {
+        position: absolute;
+        right: -6px;
+        top: 7px;
+        display: block;
+        font-size: 60px;
+        color: #f2f2f2; }
+  div#banner ul.banner-list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 102;
+    text-align: center; }
+    div#banner ul.banner-list li {
+      margin: 0 10px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      opacity: .8;
+      background: #333;
+      cursor: pointer; }
+      div#banner ul.banner-list li.active {
+        opacity: 1;
+        background: #d71a21; }
+  div#banner div.banner-loading {
+    display: none;
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-inxex: 20; }
+    div#banner div.banner-loading img {
+      border: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 150px;
+      height: 150px;
+      margin: -75px 0 0 -75px; }
+
+div.wrap {
+  position: relative;
+  width: 1190px;
+  margin: 0 auto; }
+  div.wrap div.notice {
+    position: absolute;
+    bottom: 306px;
+    right: 0;
+    z-index: 102;
+    display: block;
+    width: 270px;
+    height: 165px;
+    background: #fff;
+    overflow: hidden; }
+    div.wrap div.notice div.notice-title {
+      padding: 0 15px 0 35px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 14px;
+      background-color: #f3f3f3; }
+      div.wrap div.notice div.notice-title i.iconfont {
+        color: #eda73f;
+        font-size: 22px;
+        position: absolute;
+        top: 0;
+        left: 8px; }
+  div.wrap div.slider-notice {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 115px;
+    padding-top: 5px;
+    overflow: hidden; }
+    div.wrap div.slider-notice ul {
+      height: 208px;
+      position: relative;
+      top: 0;
+      left: 0; }
+      div.wrap div.slider-notice ul li {
+        display: block;
+        height: 20px;
+        line-height: 20px;
+        padding: 3px 10px;
+        font-size: 13px; }
+        div.wrap div.slider-notice ul li a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          color: #333; }
+          div.wrap div.slider-notice ul li a.clone {
+            color: #c40000; }
+          div.wrap div.slider-notice ul li a:hover {
+            text-decoration: underline; }
+  div.wrap div.wrap-nav {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    z-index: 102;
+    display: block;
+    width: 270px;
+    height: 290px;
+    overflow: hidden;
+    background: #fff; }
+    div.wrap div.wrap-nav div.wrap-img {
+      position: relative;
+      display: block;
+      width: 270px;
+      height: 290px;
+      overflow: hidden; }
+      div.wrap div.wrap-nav div.wrap-img ul {
+        height: 290px;
+        position: absolute;
+        left: 0px;
+        top: 0;
+        overflow: hidden; }
+        div.wrap div.wrap-nav div.wrap-img ul li {
+          float: left;
+          width: 270px;
+          height: 290px; }
+          div.wrap div.wrap-nav div.wrap-img ul li a {
+            box-sizing: border-box;
+            display: block;
+            width: 270px;
+            height: 320px;
+            padding: 20px 10px 10px;
+            text-align: left;
+            color: #555; }
+            div.wrap div.wrap-nav div.wrap-img ul li a div.warp-onetitle {
+              position: relative;
+              display: block;
+              width: 270px; }
+              div.wrap div.wrap-nav div.wrap-img ul li a div.warp-onetitle p.onetitle-name {
+                color: #333;
+                font-size: 16px;
+                margin-bottom: 10px; }
+              div.wrap div.wrap-nav div.wrap-img ul li a div.warp-onetitle span.feature {
+                display: block;
+                color: #fff;
+                font-size: 14px;
+                height: 25px;
+                width: 84px;
+                line-height: 25px;
+                padding: 3px 10px;
+                background: #e53940; }
+              div.wrap div.wrap-nav div.wrap-img ul li a div.warp-onetitle p.onetitle-price {
+                position: absolute;
+                bottom: -40px;
+                left: 0;
+                font-size: 14px;
+                color: #d71a21; }
+                div.wrap div.wrap-nav div.wrap-img ul li a div.warp-onetitle p.onetitle-price span {
+                  font-size: 24px; }
+            div.wrap div.wrap-nav div.wrap-img ul li a div.onetitle-img {
+              display: block;
+              width: 250px;
+              height: 190px; }
+              div.wrap div.wrap-nav div.wrap-img ul li a div.onetitle-img img {
+                display: block;
+                border: 0;
+                width: 250px;
+                height: 190px; }
+      div.wrap div.wrap-nav div.wrap-img div.slider-paging {
+        display: block;
+        width: 270px;
+        height: 40px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 102;
+        text-align: center; }
+        div.wrap div.wrap-nav div.wrap-img div.slider-paging span {
+          display: inline-block;
+          width: 30px;
+          height: 4px;
+          margin: 0 2px;
+          background: #ddd;
+          cursor: pointer;
+          text-align: left;
+          font-size: 0; }
+          div.wrap div.wrap-nav div.wrap-img div.slider-paging span.active i {
+            background: #e2242b;
+            width: 0;
+            height: 4px; }
+          div.wrap div.wrap-nav div.wrap-img div.slider-paging span i {
+            display: inline-block;
+            width: 0;
+            height: 4px;
+            overflow: hidden; }
+
+div#main {
+  position: relative; }
+  div#main div.main-margin {
+    width: 1190px;
+    margin: 0 auto; }
+    div#main div.main-margin div.main-top {
+      height: 770px;
+      position: relative;
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 30px; }
+      div#main div.main-margin div.main-top div.recommend {
+        position: relative; }
+        div#main div.main-margin div.main-top div.recommend div.main-hot {
+          position: relative;
+          border-top: 0;
+          width: 892px;
+          border-left: 1px solid #ededed; }
+          div#main div.main-margin div.main-top div.recommend div.main-hot ul.mainhot-title {
+            width: 100%;
+            color: #666;
+            height: 39px;
+            line-height: 39px;
+            border-bottom: 1px solid #e2242b;
+            background: #f9f9f9;
+            border-right: 1px solid #ededed; }
+            div#main div.main-margin div.main-top div.recommend div.main-hot ul.mainhot-title li {
+              width: 200px;
+              text-align: center;
+              font-size: 18px;
+              float: left;
+              height: 39px;
+              line-height: 39px;
+              background: #ededed; }
+              div#main div.main-margin div.main-top div.recommend div.main-hot ul.mainhot-title li a {
+                background: #f9f9f9;
+                display: block;
+                color: #666; }
+                div#main div.main-margin div.main-top div.recommend div.main-hot ul.mainhot-title li a.active {
+                  background: #e2242b;
+                  border-top: 1px solid #e2242b;
+                  color: #fff; }
+          div#main div.main-margin div.main-top div.recommend div.main-hot div.mainhot-list {
+            display: block; }
+            div#main div.main-margin div.main-top div.recommend div.main-hot div.mainhot-list ul.mainhot-pro {
+              width: 895px;
+              hieght: 671px;
+              border-left: 1px solid #ededed;
+              overflow: hidden;
+              float: left;
+              display: none; }
+              div#main div.main-margin div.main-top div.recommend div.main-hot div.mainhot-list ul.mainhot-pro.mainhot-refe {
+                display: block; }
+              div#main div.main-margin div.main-top div.recommend div.main-hot div.mainhot-list ul.mainhot-pro li {
+                width: 222px;
+                overflow: hidden;
+                float: left;
+                border-right: 1px solid #ededed;
+                border-bottom: 1px solid #ededed;
+                position: relative; }
+                div#main div.main-margin div.main-top div.recommend div.main-hot div.mainhot-list ul.mainhot-pro li:hover .mainhot-out {
+                  transition: .6s;
+                  bottom: 0; }
+                div#main div.main-margin div.main-top div.recommend div.main-hot div.mainhot-list ul.mainhot-pro li:hover a .mainhot-hd p {
+                  transition: .6s;
+                  opacity: .8; }
+                div#main div.main-margin div.main-top div.recommend div.main-hot div.mainhot-list ul.mainhot-pro li a {
+                  display: block;
+                  overflow: hidden;
+                  transition: .2s ease;
+                  white-space: nowrap;
+                  position: relative; }
+                  div#main div.main-margin div.main-top div.recommend div.main-hot div.mainhot-list ul.mainhot-pro li a div.mainhot-hd {
+                    margin: 17px 20px 0 20px;
+                    overflow: hidden;
+                    white-space: nowrap; }
+                    div#main div.main-margin div.main-top div.recommend div.main-hot div.mainhot-list ul.mainhot-pro li a div.mainhot-hd span.mainhot-name {
+                      display: block;
+                      marign-bottom: 1px;
+                      font-size: 16px;
+                      color: #fb108a; }
+                    div#main div.main-margin div.main-top div.recommend div.main-hot div.mainhot-list ul.mainhot-pro li a div.mainhot-hd span.mainhot-state {
+                      font-size: 12px;
+                      display: block;
+                      margin-bottom: 1px;
+                      color: #333; }
+                    div#main div.main-margin div.main-top div.recommend div.main-hot div.mainhot-list ul.mainhot-pro li a div.mainhot-hd p {
+                      width: 222px;
+                      height: 21px;
+                      background: #333;
+                      opacity: .3;
+                      z-index: 5;
+                      position: absolute; }
+                      div#main div.main-margin div.main-top div.recommend div.main-hot div.mainhot-list ul.mainhot-pro li a div.mainhot-hd p span.mainhot-price {
+                        color: #d71a21;
+                        margin-bottom: 1px;
+                        font-size: 12px; }
+                        div#main div.main-margin div.main-top div.recommend div.main-hot div.mainhot-list ul.mainhot-pro li a div.mainhot-hd p span.mainhot-price b {
+                          color: #fb2b10;
+                          font: 700 16px/21px ""; }
+                  div#main div.main-margin div.main-top div.recommend div.main-hot div.mainhot-list ul.mainhot-pro li a div.mainhot-img {
+                    width: 222px;
+                    height: 280px;
+                    display: block;
+                    text-align: center;
+                    position: relative; }
+                    div#main div.main-margin div.main-top div.recommend div.main-hot div.mainhot-list ul.mainhot-pro li a div.mainhot-img img {
+                      width: 100%;
+                      height: 280px;
+                      vertical-align: top; }
+                div#main div.main-margin div.main-top div.recommend div.main-hot div.mainhot-list ul.mainhot-pro li div.mainhot-out {
+                  opacity: .7;
+                  background: #000;
+                  position: absolute;
+                  left: 0;
+                  bottom: -40px;
+                  width: 100%;
+                  height: 40px;
+                  line-height: 40px;
+                  text-align: center; }
+                  div#main div.main-margin div.main-top div.recommend div.main-hot div.mainhot-list ul.mainhot-pro li div.mainhot-out a {
+                    color: #fff;
+                    transition: .2s ease;
+                    white-space: nowrap; }
+        div#main div.main-margin div.main-top div.recommend div.main-rush {
+          background: #fcf0d6;
+          width: 270px;
+          height: 461px;
+          overflow: hidden;
+          position: relative;
+          float: right; }
+          div#main div.main-margin div.main-top div.recommend div.main-rush div.mainrush-hd {
+            height: 29px;
+            font-size: 18px;
+            border-bottom: 1px dashed #ccc;
+            color: #666;
+            padding-bottom: 6px;
+            margin: 8px 10px 0; }
+            div#main div.main-margin div.main-top div.recommend div.main-rush div.mainrush-hd p.fn-left {
+              float: left;
+              color: #333;
+              display: inline-block; }
+              div#main div.main-margin div.main-top div.recommend div.main-rush div.mainrush-hd p.fn-left span {
+                float: left; }
+                div#main div.main-margin div.main-top div.recommend div.main-rush div.mainrush-hd p.fn-left span:nth-child(1) {
+                  color: #d71a21; }
+            div#main div.main-margin div.main-top div.recommend div.main-rush div.mainrush-hd p.fn-right {
+              float: right;
+              font-size: 14px;
+              margin-top: 7px;
+              position: relative; }
+              div#main div.main-margin div.main-top div.recommend div.main-rush div.mainrush-hd p.fn-right a {
+                display: block;
+                padding-left: 13px; }
+          div#main div.main-margin div.main-top div.recommend div.main-rush div.mainrush-time {
+            color: #333;
+            font-size: 18px;
+            padding: 20px 10px; }
+            div#main div.main-margin div.main-top div.recommend div.main-rush div.mainrush-time span {
+              float: left;
+              display: inline; }
+            div#main div.main-margin div.main-top div.recommend div.main-rush div.mainrush-time p {
+              font-weight: normal;
+              font-size: 24px;
+              float: left;
+              display: inline;
+              color: #333;
+              padding: 0;
+              margin: 0; }
+              div#main div.main-margin div.main-top div.recommend div.main-rush div.mainrush-time p b {
+                border-radius: 5px;
+                display: block;
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                background: #fd373e;
+                color: #fff;
+                font-size: 24px;
+                text-align: center;
+                position: relative;
+                display: inline-block;
+                z-index: 2;
+                margin-right: 4px; }
+                div#main div.main-margin div.main-top div.recommend div.main-rush div.mainrush-time p b span:nth-child(1) {
+                  font-weight: bold;
+                  position: absolute;
+                  z-index: 2;
+                  left: 1px; }
+                div#main div.main-margin div.main-top div.recommend div.main-rush div.mainrush-time p b span:nth-child(2) {
+                  height: 0;
+                  width: 30px;
+                  border-top: 1px solid #fd6f6c;
+                  position: absolute;
+                  top: 15px;
+                  left: 0;
+                  z-index: 1; }
+                div#main div.main-margin div.main-top div.recommend div.main-rush div.mainrush-time p b span:nth-child(3) {
+                  display: inline-block;
+                  height: 30px;
+                  font-weight: 400;
+                  line-height: 30px;
+                  position: absolute;
+                  left: 33px;
+                  top: -2px;
+                  color: #e2242b; }
+          div#main div.main-margin div.main-top div.recommend div.main-rush div.mainrush-img {
+            width: 250px;
+            margin: 0 auto; }
+            div#main div.main-margin div.main-top div.recommend div.main-rush div.mainrush-img img {
+              width: 100%;
+              vertical-align: top;
+              border: 0; }
+          div#main div.main-margin div.main-top div.recommend div.main-rush div.mainrush-finished {
+            width: 250px;
+            position: absolute;
+            left: 0;
+            top: 40px;
+            height: 461px;
+            width: 270px;
+            z-index: 2; }
+            div#main div.main-margin div.main-top div.recommend div.main-rush div.mainrush-finished img {
+              width: 100%;
+              vertical-align: top;
+              border: 0; }
+    div#main div.main-margin div.maincenter-title {
+      margin: 10px 0 30px 0;
+      width: 100%;
+      position: relative;
+      overflow: hidden; }
+      div#main div.main-margin div.maincenter-title ul {
+        width: 1390px; }
+        div#main div.main-margin div.maincenter-title ul li {
+          width: 200px;
+          float: left;
+          height: 180px;
+          overflow: hidden;
+          position: relative;
+          background: #999; }
+          div#main div.main-margin div.maincenter-title ul li.active {
+            width: 390px; }
+            div#main div.main-margin div.maincenter-title ul li.active a img {
+              position: absolute;
+              left: -200px;
+              top: 0; }
+          div#main div.main-margin div.maincenter-title ul li a {
+            display: block;
+            height: 180px; }
+            div#main div.main-margin div.maincenter-title ul li a img {
+              position: absolute;
+              left: 0;
+              top: 0; }
+    div#main div.main-margin div.same {
+      position: relative;
+      width: 100%;
+      margin-top: 10px; }
+      div#main div.main-margin div.same div.floor {
+        height: 468px;
+        margin-bottom: 30px; }
+        div#main div.main-margin div.same div.floor p.floor-hd {
+          font-size: 20px;
+          color: #333;
+          width: 200px; }
+        div#main div.main-margin div.same div.floor div.floor-cont {
+          position: relative; }
+          div#main div.main-margin div.same div.floor div.floor-cont div.floor-carousel {
+            margin-top: 19px;
+            height: 421px;
+            z-index: 99;
+            width: 295px;
+            float: left;
+            overflow: hidden;
+            position: relative; }
+            div#main div.main-margin div.same div.floor div.floor-cont div.floor-carousel ul {
+              display: block;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              z-index: 100; }
+              div#main div.main-margin div.same div.floor div.floor-cont div.floor-carousel ul li {
+                width: 295px;
+                height: 100%;
+                float: left; }
+                div#main div.main-margin div.same div.floor div.floor-cont div.floor-carousel ul li a {
+                  opactiy: 1; }
+                  div#main div.main-margin div.same div.floor div.floor-cont div.floor-carousel ul li a img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    border: 0; }
+            div#main div.main-margin div.same div.floor div.floor-cont div.floor-carousel div.F1carousel-nav {
+              width: 100%;
+              height: 40px;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              z-index: 102;
+              text-align: center; }
+              div#main div.main-margin div.same div.floor div.floor-cont div.floor-carousel div.F1carousel-nav span {
+                overflow: hidden;
+                display: inline-block;
+                width: 30px;
+                height: 4px;
+                margin: 0 2px;
+                background: #ddd;
+                cursor: pointer;
+                font-size: 0;
+                text-align: left; }
+                div#main div.main-margin div.same div.floor div.floor-cont div.floor-carousel div.F1carousel-nav span.active i {
+                  height: 4px;
+                  width: 30px;
+                  background: #e2242b; }
+                div#main div.main-margin div.same div.floor div.floor-cont div.floor-carousel div.F1carousel-nav span i {
+                  overflow: hidden;
+                  display: inline-block;
+                  width: 0;
+                  background: #e2242b; }
+          div#main div.main-margin div.same div.floor div.floor-cont div.floor-main {
+            float: left;
+            width: 892px; }
+            div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-title {
+              margin-top: 18px;
+              border-bottom: 1px solid #ff9901; }
+              div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-title ul.floor-tab {
+                float: left;
+                margin-top: -32px; }
+                div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-title ul.floor-tab li {
+                  float: left;
+                  margin: 0 15px;
+                  font-size: 14px;
+                  border-bottom: 3px soild #fff; }
+                  div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-title ul.floor-tab li.tab-active {
+                    border-bottom: 3px solid #ff9901;
+                    font-weight: 600; }
+                    div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-title ul.floor-tab li.tab-active a {
+                      color: #333; }
+                  div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-title ul.floor-tab li a {
+                    display: block;
+                    padding: 5px 10px; }
+              div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-title div.floor-more {
+                float: right;
+                margin-top: -20px;
+                font-size: 12px;
+                font-family: "宋体";
+                position: relative; }
+                div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-title div.floor-more ul {
+                  clear: both;
+                  display: block;
+                  color: #999; }
+                  div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-title div.floor-more ul li {
+                    float: left;
+                    border-right: 1px solid #999;
+                    border-top: 1px dashed transparent;
+                    border-bottom: 1px dashed transparent;
+                    padding: 0 10px; }
+                    div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-title div.floor-more ul li:nth-child(7) {
+                      border: 0; }
+                    div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-title div.floor-more ul li a {
+                      color: #999; }
+            div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd {
+              width: 100%; }
+              div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-l {
+                width: 234px;
+                float: left; }
+                div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-l li {
+                  width: 213px;
+                  border-bottom: 1px solid #ededed;
+                  border-right: 1px solid #ededed;
+                  position: relative;
+                  padding: 0 10px; }
+                  div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-l li a {
+                    display: block;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    transition: .2s ease; }
+                    div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-l li a:hover {
+                      margin-left: -8px; }
+                    div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-l li a div.f1-left-hd {
+                      box-sizing: border-box;
+                      width: 234px;
+                      position: absolute;
+                      left: 0;
+                      top: 0;
+                      padding: 0 8px; }
+                    div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-l li a div.f1-left-img {
+                      width: 213px; }
+                      div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-l li a div.f1-left-img img {
+                        display: block;
+                        width: 213px;
+                        height: 209px;
+                        border: 0; }
+              div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-c {
+                float: left;
+                width: 190px;
+                overflow: hidden; }
+                div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-c li {
+                  width: 100%;
+                  height: 419px;
+                  float: left;
+                  border-bottom: 1px solid #ededed;
+                  border-right: 1px solid #ededed;
+                  position: relative; }
+                  div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-c li a {
+                    display: block;
+                    overflow: hidden;
+                    transition: .2s ease;
+                    white-space: nowrap; }
+                    div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-c li a:hover {
+                      margin-left: -8px; }
+                    div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-c li a div.F1center-top {
+                      width: 190px;
+                      height: 80px;
+                      line-height: 80px;
+                      background: #ddd;
+                      font-size: 14px;
+                      color: #000;
+                      text-align: center;
+                      border-bottom: 2px dashed #e5e5e5; }
+                    div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-c li a div.F1center-top-center {
+                      height: 70px;
+                      background: #ddd;
+                      padding-top: 16px; }
+                      div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-c li a div.F1center-top-center span {
+                        display: block;
+                        height: 20px;
+                        color: #333;
+                        text-align: center; }
+                    div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-c li a img {
+                      display: block;
+                      border: 0;
+                      width: 213px;
+                      height: 250px; }
+              div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-r {
+                width: 468px;
+                overflow: hidden;
+                height: 420px;
+                float: left; }
+                div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-r li {
+                  padding: 0 10px;
+                  width: 213px;
+                  height: 209px;
+                  overflow: hidden;
+                  float: left;
+                  border-bottom: 1px solid #ededed;
+                  border-right: 1px solid #ededed;
+                  position: relative; }
+                  div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-r li a {
+                    display: block;
+                    overflow: hidden;
+                    transition: .2s ease;
+                    white-space: nowrap; }
+                    div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-r li a:hover {
+                      margin-left: -8px; }
+                    div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-r li a div.f1-r-img {
+                      height: 208.5px;
+                      width: 213px;
+                      display: block;
+                      position: relative;
+                      text-align: center; }
+                      div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.floormain-hot ul.F1hot-r li a div.f1-r-img img {
+                        border: 0;
+                        width: 213px;
+                        height: 210px;
+                        vertical-align: top;
+                        text-align: center;
+                        white-space: nowrap; }
+              div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.common {
+                display: none; }
+                div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.common ul {
+                  width: 892px;
+                  overflow: hidden;
+                  height: 420px;
+                  float: left; }
+                  div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.common ul li {
+                    padding: 0 10px;
+                    width: 202px;
+                    overflow: hidden;
+                    float: left;
+                    border-bottom: 1px solid #ededed;
+                    border-right: 1px solid #ededed;
+                    position: relative;
+                    transition: .6s; }
+                    div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.common ul li:hover .floornew-out {
+                      transition: .6s;
+                      display: block; }
+                    div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.common ul li a {
+                      display: block;
+                      overflow: hidden;
+                      transition: .2s ease;
+                      white-space: nowrap; }
+                      div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.common ul li a:hover {
+                        margin-left: -8px; }
+                      div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.common ul li a div.floor-new {
+                        position: absolute;
+                        left: 14px;
+                        top: 10px;
+                        z-index: 99;
+                        width: 190px;
+                        text-align: left; }
+                        div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.common ul li a div.floor-new span {
+                          font-size: 12px;
+                          color: #666;
+                          display: block;
+                          overflow: hidden;
+                          margin-bottom: 1px; }
+                        div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.common ul li a div.floor-new p {
+                          font-size: 12px;
+                          color: #d71a21;
+                          display: block; }
+                          div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.common ul li a div.floor-new p span {
+                            color: #d71a21; }
+                          div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.common ul li a div.floor-new p b {
+                            color: #d71a21;
+                            font-weight: bold;
+                            font-size: 16px;
+                            margin-bottom: 1px; }
+                      div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.common ul li a div.floornew-img {
+                        height: 200px;
+                        width: 202px;
+                        display: block;
+                        text-align: center;
+                        position: relative; }
+                        div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.common ul li a div.floornew-img img {
+                          width: 202px;
+                          height: 100%;
+                          vertical-align: top; }
+                    div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.common ul li div.floornew-out {
+                      position: absolute;
+                      bottom: 0;
+                      left: 0;
+                      display: none;
+                      opacity: .7;
+                      background: #000;
+                      width: 100%;
+                      height: 40px;
+                      line-height: 40px;
+                      text-align: center;
+                      transition: .6s; }
+                      div#main div.main-margin div.same div.floor div.floor-cont div.floor-main div.floormain-bd div.common ul li div.floornew-out a {
+                        color: #fff;
+                        font-weight: bold; }
+          div#main div.main-margin div.same div.floor div.floor-cont div.floor-loading {
+            display: none;
+            background: rgba(255, 255, 255, 0.8);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 20; }
+            div#main div.main-margin div.same div.floor div.floor-cont div.floor-loading img {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              width: 150px;
+              height: 150px;
+              margin: -75px 0 0 -75px;
+              border: 0;
+              vertical-align: top; }
+
+div.floor-menu {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 30%;
+  z-index: 99;
+  width: 40px;
+  height: 246px;
+  margin-left: -650px;
+  text-align: center; }
+  div.floor-menu a {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #000;
+    border-bottom: 1px solid #ebebeb; }
+    div.floor-menu a[href="#1F"].active {
+      background: #f7a945;
+      color: #fff; }
+      div.floor-menu a[href="#1F"].active span {
+        display: block;
+        background: #f7a945; }
+    div.floor-menu a[href="#2F"].active {
+      background: #19c8a9;
+      color: #fff; }
+      div.floor-menu a[href="#2F"].active span {
+        display: block;
+        background: #19c8a9; }
+    div.floor-menu a[href="#3F"].active {
+      background: #f15453;
+      color: #fff; }
+      div.floor-menu a[href="#3F"].active span {
+        display: block;
+        background: #f15453; }
+    div.floor-menu a[href="#4F"].active {
+      background: #0aa6e8;
+      color: #fff; }
+      div.floor-menu a[href="#4F"].active span {
+        display: block;
+        background: #0aa6e8; }
+    div.floor-menu a[href="#5F"].active {
+      background: #f26611;
+      color: #fff; }
+      div.floor-menu a[href="#5F"].active span {
+        display: block;
+        background: #f26611; }
+    div.floor-menu a[href="#6F"].active_link {
+      background: #9f70f6;
+      color: #fff; }
+      div.floor-menu a[href="#6F"].active_link span {
+        display: block;
+        background: #9f70f6; }
+    div.floor-menu a i {
+      display: block;
+      font-style: normal;
+      line-height: 40px;
+      margin-top: 0; }
+    div.floor-menu a span {
+      display: none;
+      width: 30px;
+      line-height: 16px;
+      position: absolute;
+      top: 4px;
+      left: 50%;
+      margin-left: -15px;
+      z-index: 100;
+      cursor: pointer;
+      font-size: 12px;
+      font-family: 宋体, arial, helvetica, sans-serif; }
+
+div.right-menu {
+  z-index: 10000;
+  display: block;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: -274px;
+  width: 275px;
+  padding-left: 35px; }
+  div.right-menu div.index-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 35px;
+    height: 100%;
+    text-align: center;
+    background: #3f3c3c;
+    float: left; }
+    div.right-menu div.index-menu div.menu-bar {
+      display: block;
+      position: relative;
+      width: 100%; }
+      div.right-menu div.index-menu div.menu-bar div.menu-link {
+        display: block;
+        width: 100%;
+        margin-top: 100px; }
+        div.right-menu div.index-menu div.menu-bar div.menu-link div.shop-car {
+          padding: 8px 0 0 0;
+          height: auto;
+          position: relative;
+          display: block;
+          width: 100%;
+          margin-bottom: 10px;
+          cursor: pointer; }
+          div.right-menu div.index-menu div.menu-bar div.menu-link div.shop-car:hover {
+            background: #c40000; }
+          div.right-menu div.index-menu div.menu-bar div.menu-link div.shop-car a {
+            text-indent: 0;
+            font-size: 13px;
+            width: 24px;
+            line-height: 16px;
+            margin: auto;
+            padding: 8px 0 12px 0;
+            border-bottom: 1px solid #595555;
+            color: #fff;
+            position: relative;
+            display: block; }
+            div.right-menu div.index-menu div.menu-bar div.menu-link div.shop-car a i {
+              color: #fff; }
+            div.right-menu div.index-menu div.menu-bar div.menu-link div.shop-car a label {
+              position: relative;
+              display: block;
+              width: 20px;
+              height: 20px;
+              line-height: 20px;
+              text-align: center;
+              border-radius: 10px;
+              font-size: 12px;
+              color: #FFFFFF;
+              background: #c40000;
+              margin: 8px auto 0;
+              cursor: default; }
+        div.right-menu div.index-menu div.menu-bar div.menu-link div.collect-bar {
+          position: relative;
+          display: block;
+          width: 100%;
+          margin-bottom: 10px;
+          height: 40px;
+          cursor: pointer; }
+          div.right-menu div.index-menu div.menu-bar div.menu-link div.collect-bar:hover {
+            background: #c40000; }
+          div.right-menu div.index-menu div.menu-bar div.menu-link div.collect-bar:hover .link-item {
+            display: block; }
+          div.right-menu div.index-menu div.menu-bar div.menu-link div.collect-bar a {
+            height: 17px;
+            overflow: hidden;
+            top: 12px;
+            position: relative;
+            display: block;
+            width: 100%;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 12px;
+            margin: 3px 0; }
+            div.right-menu div.index-menu div.menu-bar div.menu-link div.collect-bar a i {
+              color: #fff;
+              font-size: 20px; }
+          div.right-menu div.index-menu div.menu-bar div.menu-link div.collect-bar div.link-item {
+            display: none;
+            background: #c40000;
+            position: absolute;
+            right: 35px;
+            top: 0;
+            width: 90px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            color: #FFFFFF;
+            font-size: 14px; }
+            div.right-menu div.index-menu div.menu-bar div.menu-link div.collect-bar div.link-item span {
+              line-height: 40px;
+              text-align: center;
+              color: #fff;
+              font-size: 14px; }
+        div.right-menu div.index-menu div.menu-bar div.menu-link div.history-bar {
+          position: relative;
+          display: block;
+          width: 100%;
+          margin-bottom: 10px;
+          height: 40px;
+          cursor: pointer; }
+          div.right-menu div.index-menu div.menu-bar div.menu-link div.history-bar:hover {
+            background: #c40000; }
+          div.right-menu div.index-menu div.menu-bar div.menu-link div.history-bar:hover .link-item {
+            display: block; }
+          div.right-menu div.index-menu div.menu-bar div.menu-link div.history-bar a {
+            height: 19px;
+            overflow: hidden;
+            top: 11px;
+            position: relative;
+            display: block;
+            width: 100%;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 12px;
+            margin: 3px 0; }
+            div.right-menu div.index-menu div.menu-bar div.menu-link div.history-bar a i {
+              color: #fff;
+              font-size: 20px; }
+          div.right-menu div.index-menu div.menu-bar div.menu-link div.history-bar div.link-item {
+            display: none;
+            background: #c40000;
+            position: absolute;
+            right: 35px;
+            top: 0;
+            width: 90px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            color: #FFFFFF;
+            font-size: 14px; }
+            div.right-menu div.index-menu div.menu-bar div.menu-link div.history-bar div.link-item span {
+              line-height: 40px;
+              text-align: center;
+              color: #fff;
+              font-size: 14px; }
+        div.right-menu div.index-menu div.menu-bar div.menu-link div.customer-bar {
+          position: relative;
+          display: block;
+          width: 100%;
+          margin-bottom: 10px;
+          height: 40px;
+          cursor: pointer; }
+          div.right-menu div.index-menu div.menu-bar div.menu-link div.customer-bar:hover {
+            background: #c40000; }
+          div.right-menu div.index-menu div.menu-bar div.menu-link div.customer-bar:hover .service {
+            display: block; }
+          div.right-menu div.index-menu div.menu-bar div.menu-link div.customer-bar a {
+            position: relative;
+            display: block;
+            width: 100%;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 12px;
+            margin: 3px 0;
+            height: 25px;
+            overflow: hidden;
+            top: 8px; }
+            div.right-menu div.index-menu div.menu-bar div.menu-link div.customer-bar a i {
+              color: #fff;
+              font-size: 24px; }
+          div.right-menu div.index-menu div.menu-bar div.menu-link div.customer-bar div.service {
+            border-radius: 5px;
+            display: none;
+            position: absolute;
+            right: 35px;
+            bottom: -10px;
+            width: 207px;
+            height: 182px;
+            padding-top: 58px;
+            background: #FCF0D6; }
+            div.right-menu div.index-menu div.menu-bar div.menu-link div.customer-bar div.service a {
+              display: block;
+              width: 150px;
+              height: 36px;
+              line-height: 36px;
+              margin: auto;
+              color: #d71a21;
+              font-size: 14px;
+              text-indent: 0;
+              border-radius: 5px;
+              border: 1px solid #db2d2d;
+              background: #f9f9e2; }
+              div.right-menu div.index-menu div.menu-bar div.menu-link div.customer-bar div.service a i {
+                color: #0aa6e8;
+                font-size: 24px; }
+            div.right-menu div.index-menu div.menu-bar div.menu-link div.customer-bar div.service span.service-tips1 {
+              display: block;
+              width: 150px;
+              height: 20px;
+              line-height: 20px;
+              font-size: 14px;
+              color: #109f98;
+              margin-top: 10px;
+              margin-left: 28px;
+              text-align: left; }
+              div.right-menu div.index-menu div.menu-bar div.menu-link div.customer-bar div.service span.service-tips1 i {
+                color: #0aa6e8; }
+            div.right-menu div.index-menu div.menu-bar div.menu-link div.customer-bar div.service label {
+              display: block;
+              width: 150px;
+              text-align: left;
+              margin: 2px 0 2px 28px;
+              font-size: 20px;
+              color: #d71a21;
+              font-weight: bold; }
+            div.right-menu div.index-menu div.menu-bar div.menu-link div.customer-bar div.service span.service-tips2 {
+              display: block;
+              width: 150px;
+              height: 20px;
+              line-height: 20px;
+              font-size: 14px;
+              color: #109f98;
+              margin-top: 5px;
+              margin-left: 28px;
+              text-align: left; }
+              div.right-menu div.index-menu div.menu-bar div.menu-link div.customer-bar div.service span.service-tips2 i {
+                color: #0aa6e8; }
+            div.right-menu div.index-menu div.menu-bar div.menu-link div.customer-bar div.service p {
+              display: block;
+              width: 150px;
+              text-align: left;
+              margin: 8px 0 2px 28px; }
+              div.right-menu div.index-menu div.menu-bar div.menu-link div.customer-bar div.service p span {
+                font-size: 14px;
+                line-height: 18px;
+                color: #666666;
+                display: block; }
+    div.right-menu div.index-menu div.ment-btn {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 35px; }
+      div.right-menu div.index-menu div.ment-btn div.link-item {
+        margin-bottom: 0;
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 40px;
+        cursor: pointer; }
+        div.right-menu div.index-menu div.ment-btn div.link-item:hover {
+          background: #c40000; }
+        div.right-menu div.index-menu div.ment-btn div.link-item:hover .two-code {
+          display: block; }
+        div.right-menu div.index-menu div.ment-btn div.link-item a {
+          overflow: hidden;
+          margin: 5px auto;
+          position: relative;
+          display: block;
+          width: 100%;
+          color: #FFFFFF;
+          text-decoration: none;
+          font-size: 12px;
+          line-height: 40px; }
+          div.right-menu div.index-menu div.ment-btn div.link-item a i {
+            color: #fff;
+            font-size: 20px; }
+        div.right-menu div.index-menu div.ment-btn div.link-item div.two-code {
+          display: none;
+          width: 147px;
+          height: 170px;
+          position: absolute;
+          bottom: -9px;
+          right: 35px;
+          z-index: 999;
+          background: #F26611;
+          padding: 10px;
+          border-radius: 5px;
+          border-radius: 5px; }
+          div.right-menu div.index-menu div.ment-btn div.link-item div.two-code img {
+            display: block;
+            width: 140px;
+            float: left;
+            border: 0; }
+          div.right-menu div.index-menu div.ment-btn div.link-item div.two-code span {
+            display: block;
+            width: 140px;
+            text-align: center;
+            font-size: 14px;
+            height: 30px;
+            line-height: 30px;
+            margin-top: 5px;
+            color: #c40000;
+            float: left; }
+      div.right-menu div.index-menu div.ment-btn div.link-item1 {
+        margin-bottom: 0;
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 40px;
+        cursor: pointer; }
+        div.right-menu div.index-menu div.ment-btn div.link-item1:hover {
+          background: #c40000; }
+        div.right-menu div.index-menu div.ment-btn div.link-item1 b.TOP {
+          overflow: hidden;
+          margin: 5px auto;
+          position: relative;
+          display: block;
+          width: 100%;
+          color: #FFFFFF;
+          text-decoration: none;
+          font-size: 12px;
+          line-height: 40px; }
+          div.right-menu div.index-menu div.ment-btn div.link-item1 b.TOP i {
+            color: #fff;
+            font-size: 20px; }

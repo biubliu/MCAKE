@@ -1,5 +1,5 @@
 
-define(["b"], function(){
+define([], function(){
 	console.log("common")
 	return {
 		getPagePositionLeft: function(ele) {

@@ -1,0 +1,320 @@
+<script id="site" type="text/html">
+	<% for(var i=0;i<list.length;i++) {%>
+			<div class="dropdowncont-item-hot">
+				<label class="hot">热门省市
+				<i></i>
+				</label>
+				<% for(var j=0;j<list[i].hot.length;j++){%>
+				<span><%=list[i].hot[j]%></span>
+				<%}%>
+			</div>
+	<% } %>
+</script>
+<script id="East" type="text/html">
+	<% for(var i=0;i<list.length;i++){ %>
+		<div class="East">
+			<label class="letter">华东: </label>
+			<% for(var j=0;j<list[i].East.length;j++){%>
+			<span><%=list[i].East[j]%></span>
+		<%}%>
+		</div>
+	<% } %>	
+	</div>
+</script>
+<script id="south" type="text/html">
+	<% for(var i=0;i<list.length;i++){ %>
+	<div class="south">
+		<label class="letter">华南: </label>
+		<% for(var j=0;j<list[i].south.length;j++){%>
+		<span><%=list[i].south[j]%></span>
+		<%}%>
+	</div>
+	<% } %>
+</script>
+<script id="NC" type="text/html">
+	<% for(var i=0;i<list.length;i++){%>
+		<div class="NC">
+			<label class="letter">华北: </label>
+			<% for(var j=0;j<list[i].NC.length;j++){%>
+			<span><%=list[i].NC[j]%></span>
+			<%}%>
+		</div>
+		<%}%>
+</script>
+<script id="central" type="text/html">
+	<% for(var i=0;i<list.length;i++){%>
+	<div class="central">
+		<label class="letter">华中: </label>
+		<% for(var j=0;j<list[i].central.length;j++){%>
+		<span><%=list[i].central[j]%></span>
+		<%}%>
+	</div>
+	<%}%>
+</script>
+<script id="northeast" type="text/html">
+	<% for(var i=0;i<list.length;i++){%>
+		<div class="northeast">
+			<label class="letter">东北: </label>
+			<% for(var j=0;j<list[i].northeast.length;j++){%>
+			<span><%=list[i].northeast[j]%></span>
+			<%}%>
+		</div>
+		<%}%>
+</script>
+<script id="southwest" type="text/html">
+	<% for(var i=0;i<list.length;i++){%>
+		<div class="southwest">
+			<label class="letter">西南: </label>
+			<% for(var j=0;j<list[i].southwest.length;j++){%>
+			<span><%=list[i].southwest[j]%></span>
+			<%}%>
+		</div>
+		<%}%>
+</script>
+<script id="northwest" type="text/html">
+	<% for(var i=0;i<list.length;i++){%>
+		<div class="northwest">
+			<label class="letter">西北: </label>
+			<% for(var j=0;j<list[i].northwest.length;j++){%>
+			<span><%=list[i].northwest[j]%></span>
+			<%}%>
+		</div>
+		<%}%>
+</script>
+<script id="hots" type="text/html">
+	<%hots.k=hots.block_266.length>7?7:hots.block_266.length%>
+			<%for(var i=0;i<hots.k;i++){%>
+				<a href="#" class="top-search" title="<%=hots.block_266[i].name%>"><%=hots.block_266[i].name%></a>
+			<%}%>	
+</script>
+<script id="mainhot" type="text/html">
+	<%for(var i=0;i<8;i++){%>
+		<li>
+			<a href="#">
+				<div class="mainhot-hd">
+					<span class="mainhot-name"><%=result[i].storeName%></span>
+					<span class="mainhot-state"><%=result[i].listName%></span>
+					<p><span class="mainhot-price">￥<b><%=result[i].salPrice%></b></span></p>
+				</div>
+				<div class="mainhot-img">
+					<img src="<%=result[i].imgUrl%>" />
+				</div>
+			</a>
+			<div class="mainhot-out">
+				<a href="#">已售罄</a>
+			</div>
+		</li>
+	<%}%>
+</script>
+<script id="mainhot-new" type="text/html">
+	<%for(var i=0;i<8;i++){%>
+		<li>
+			<a href="#">
+				<div class="mainhot-hd">
+					<span class="mainhot-name"><%=result[i].storeName%></span>
+					<span class="mainhot-state"><%=result[i].listName%></span>
+					<p><span class="mainhot-price">￥<b><%=result[i].salPrice%></b></span></p>
+				</div>
+				<div class="mainhot-img">
+					<img src="<%=result[i].imgUrl%>" />
+				</div>
+			</a>
+			<div class="mainhot-out">
+				<a href="#">已售罄</a>
+			</div>
+		</li>
+	<%}%>
+</script>
+<script id="mainhot-brand" type="text/html">
+	<%for(var i=0;i<8;i++){%>
+		<li>
+			<a href="#">
+				<div class="mainhot-hd">
+					<span class="mainhot-name"><%=result[i].storeName%></span>
+					<span class="mainhot-state"><%=result[i].listName%></span>
+					<p><span class="mainhot-price">￥<b><%=result[i].salPrice%></b></span></p>
+				</div>
+				<div class="mainhot-img">
+					<img src="<%=result[i].imgUrl%>" />
+				</div>
+			</a>
+			<div class="mainhot-out">
+				<a href="#">已售罄</a>
+			</div>
+		</li>
+	<%}%>
+</script>
+<script id="F1search" type="text/html">
+	<ul>
+		<%for(var i=0;i<7;i++){%>
+			<li>
+				<a href="#"><%=block_266[i].name%></a>
+			</li>
+		<%}%>
+	</ul>
+</script>
+<script id="F1hot" type="text/html">
+			<ul class="F1hot-l">
+				<%for(var i=0;i<2;i++){%>
+					<li>
+						<a href="#">
+							<div class="f1-left-img">
+								<img src="<%=result[i].imgUrl%>" />
+							</div>
+						</a>
+					</li>
+				<%}%>
+			</ul>
+			<ul class="F1hot-c">
+				<li>
+					<a href="#">
+						<div class="F1center-top">
+							<%=result[2].storeName%>
+						</div>
+						<div class="F1center-top-center">
+							<span><%=result[2].storeName%></span>
+							<span><%=result[2].listName%></span>
+						</div>
+						<img src="<%=result[2].imgUrl%>" />
+					</a>
+				</li>
+			</ul>
+			<ul class="F1hot-r">
+				<%for(var j=3;j<7;j++){%>
+					<li>
+						<a href="#">
+							<div class="f1-r-img">
+								<img src="<%=result[j].imgUrl%>" />
+							</div>
+						</a>
+					</li>
+				<%}%>
+			</ul>
+</script>
+<script id="floormain-new" type="text/html">
+	<ul>
+		<%for(var i=0;i<8;i++){%>
+			<li>
+				<a href="#">
+					<div class="floor-new">
+						<span><%=result[i].listName%></span>
+						<p><span>￥<b><%=result[i].salPrice%></b></span></p>
+					</div>
+					<div class="floornew-img">
+						<img src="<%=result[i].imgUrl%>" />
+					</div>
+				</a>
+				<div class="floornew-out">
+					<a href="#">已售罄</a>
+				</div>
+			</li>
+		<%}%>
+	</ul>
+</script>
+<script id="F1fresh" type="text/html">
+	<ul>
+		<%for(var i=0;i<8;i++){%>
+			<li>
+				<a href="#">
+					<div class="floor-new">
+						<span><%=result[i].listName%></span>
+						<p><span>￥<b><%=result[i].salPrice%></b></span></p>
+					</div>
+					<div class="floornew-img">
+						<img src="<%=result[i].imgUrl%>" />
+					</div>
+				</a>
+				<div class="floornew-out">
+					<a href="#">已售罄</a>
+				</div>
+			</li>
+		<%}%>
+	</ul>
+</script>
+<script id="F2recommend" type="text/html">
+	<ul class="F1hot-l">
+		<%for(var i=0;i<2;i++){%>
+			<li>
+				<a href="#">
+					<div class="f1-left-img">
+						<img src="<%=result[i].imgUrl%>" />
+					</div>
+				</a>
+			</li>
+		<%}%>
+	</ul>
+	<ul class="F1hot-c">
+		<li>
+			<a href="#">
+				<div class="F1center-top">
+					<%=result[2].storeName%>
+				</div>
+				<div class="F1center-top-center">
+					<span><%=result[2].storeName%></span>
+					<span><%=result[2].listName%></span>
+				</div>
+				<img src="<%=result[2].imgUrl%>" />
+			</a>
+		</li>
+	</ul>
+	<ul class="F1hot-r">
+		<%for(var j=3;j<7;j++){%>
+			<li>
+				<a href="#">
+					<div class="f1-r-img">
+						<img src="<%=result[j].imgUrl%>" />
+					</div>
+				</a>
+			</li>
+		<%}%>
+	</ul>
+</script>
+<script id="F2sift" type="text/html">
+	<ul>
+		<%for(var i=0;i<8;i++){%>
+			<li>
+				<a href="#">
+					<div class="floor-new">
+						<span><%=result[i].listName%></span>
+						<p><span>￥<b><%=result[i].salPrice%></b></span></p>
+					</div>
+					<div class="floornew-img">
+						<img src="<%=result[i].imgUrl%>" />
+					</div>
+				</a>
+				<div class="floornew-out">
+					<a href="#">已售罄</a>
+				</div>
+			</li>
+		<%}%>
+	</ul>
+</script>
+<script id="F2dry" type="text/html">
+	<ul>
+		<%for(var i=0;i<8;i++){%>
+			<li>
+				<a href="#">
+					<div class="floor-new">
+						<span><%=result[i].listName%></span>
+						<p><span>￥<b><%=result[i].salPrice%></b></span></p>
+					</div>
+					<div class="floornew-img">
+						<img src="<%=result[i].imgUrl%>" />
+					</div>
+				</a>
+				<div class="floornew-out">
+					<a href="#">已售罄</a>
+				</div>
+			</li>
+		<%}%>
+	</ul>
+</script>
+<script id="god-search" type="text/html">
+	<ul>
+		<%for(var i=0;i<s.length;i++){%>
+			<li>
+				<a href="#"><%=s[i]%></a>
+			</li>
+		<%}%>
+	</ul>
+</script>

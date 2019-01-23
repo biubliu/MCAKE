@@ -1,1 +1,54 @@
-"use strict";define(["jquery"],function(h){h.fn.FontScroll=function(e){var n={time:3e3,s:"fontColor",num:1};h.extend(n,e);this.children("ul").addClass("line");var t=h(".line").eq(0),a=t.height(),i=t.children().eq(0).height(),r=i,l=n.time,s=n.s;t.clone().insertAfter(t);var o=n.num,d=this.find("li");d.length;d.eq(o).addClass(s);var c=setInterval(m,l);function m(){t.animate({marginTop:"-"+i}),d.removeClass(s),o+=1,d.eq(o).addClass(s),a==i?t.animate({marginTop:"-"+i},"normal",f):i+=r}function f(){t.attr("style","margin-top:0"),i=r,o=1,d.removeClass(s),d.eq(o).addClass(s)}this.hover(function(){clearInterval(c)},function(){c=setInterval(m,l)})}});
+define(["jquery"], function($){
+	$.fn.FontScroll = function(options) {//字体向上自动滚动插件
+		var d = {
+			time: 3000,
+			s: 'fontColor',
+			num: 1
+		}
+		var o = $.extend(d, options);
+		this.children('ul').addClass('line');
+		var _con = $('.line').eq(0);
+		var _conH = _con.height();
+		var _conChildH = _con.children().eq(0).height();
+		var _temp = _conChildH;
+		var _time = d.time;
+		var _s = d.s;
+		_con.clone().insertAfter(_con);
+		var num = d.num;
+		var _p = this.find('li');
+		var allNum = _p.length;
+		_p.eq(num).addClass(_s);
+		var timeID = setInterval(Up, _time);
+		this.hover(function() {
+			clearInterval(timeID)
+		}, function() {
+			timeID = setInterval(Up, _time);
+		});
+
+		function Up() {
+			_con.animate({
+				marginTop: '-' + _conChildH
+			});
+			_p.removeClass(_s);
+			num += 1;
+			_p.eq(num).addClass(_s);
+			if (_conH == _conChildH) {
+				_con.animate({
+					marginTop: '-' + _conChildH
+				}, "normal", over);
+			} else {
+				_conChildH += _temp;
+			}
+		}
+
+		function over() {
+			_con.attr("style", 'margin-top:0');
+			_conChildH = _temp;
+			num = 1;
+			_p.removeClass(_s);
+			_p.eq(num).addClass(_s);
+		}
+	}
+})
+
+

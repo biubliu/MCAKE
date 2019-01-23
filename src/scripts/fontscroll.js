@@ -1,5 +1,5 @@
 define(["jquery"], function($){
-	$.fn.FontScroll = function(options) {
+	$.fn.FontScroll = function(options) {//字体向上自动滚动插件
 		var d = {
 			time: 3000,
 			s: 'fontColor',
